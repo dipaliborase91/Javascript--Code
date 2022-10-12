@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> Prompt - JS </title>
+        </head>
+        <body>
+            <center>
+                <h1> Prompt Box Example in JS </h1>
+                <p id="demo"> </p>
+                <button onclick="sample()"> Enter Name </button>
+
+                <script>
+                    function sample() {
+                        var text = prompt("Enter you full name: ") //prompt is used to take input from users
+                        if (text != null) {
+                            document.getElementById("demo").innerHTML = text
+                        }
+                    }
+                </script>
+            </center>
+        </body>
+</html>
